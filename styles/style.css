@@ -45,7 +45,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 82px;
+    gap: 50px;
 }
 
 .apresentacao__conteudo {
@@ -122,6 +122,8 @@ span{
 
 a {
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 a:hover, a:focus {
@@ -153,7 +155,7 @@ a:hover, a:focus {
     }
 
     .apresentacao {
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 5%;
     }
 
