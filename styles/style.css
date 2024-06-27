@@ -73,6 +73,12 @@ body {
     color: var(--cor-destaque);
 }
 
+.call-to-action-text {
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    margin-top: -6%;
+}
+
 .apresentacao__links {
     display: flex;
     flex-direction: column;
@@ -94,8 +100,8 @@ body {
     gap: 16px;
     border: 2px solid var(--cor-destaque);
     color: var(--cor-secundaria);
-    width: 50%;
-    padding: 10px 0px;
+    width: 80%;
+    padding: 15px 0px;
     text-align: center;
     font-size: 1.5rem;
     font-weight: 600;
